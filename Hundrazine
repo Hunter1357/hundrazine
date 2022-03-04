@@ -2,13 +2,13 @@
 const discord = require("discord.js-selfbot");
 const fs = require("fs");
 const tokens = fs.readFileSync("./tokens.txt").toString().split("\r\n");
-bots = [];
+bots = [937077309175889930];
 prefix = "h!";
 owner = "ur user id";
 var comd = "";
 var delay = 1000;
 var param = "";
-var blacklist = ["blacklisted ids go here"];
+var blacklist = [];
 var spammers = {
 }
 var global={
